@@ -91,20 +91,20 @@ nav ul li a {
     max-width: 100%;
     height: auto;
 }
-.statistics-section {
+.stats {
     text-align: center;
     background-color: #dff3fb;
     padding: 2rem;
     margin-bottom: 2rem;
 }
 
-.statistics-section p {
+.stats p {
     margin-bottom: 1rem;
     color: #000000;
     font-size: 1.5rem;
 }
 
-.statistics-section img {
+.stats img {
     max-width: 100%;
     height: auto;
 }
