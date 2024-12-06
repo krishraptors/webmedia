@@ -63,11 +63,13 @@ nav ul li a {
     align-items: center;
     background-color: #066082;
     color: #ffffff;
-    padding: 2rem;
+    margin-top: -3rem;
+    z-index: -4;
 }
 .help-content {
     flex: 1;
     max-width: 600px;
+    padding: 3rem;
 }
 
 .help-content p {
@@ -75,7 +77,6 @@ nav ul li a {
     font-weight:bold;
     color: #ffffff;
 }
-
 .help-content button {
     margin-top: 1rem;
 }
@@ -95,7 +96,6 @@ nav ul li a {
     text-align: center;
     background-color: #dff3fb;
     padding: 2rem;
-    margin-bottom: 2rem;
 }
 
 .stats p {
@@ -104,8 +104,8 @@ nav ul li a {
     font-size: 1.5rem;
 }
 
-.stats img {
-    max-width: 100%;
+.footer-img {
+    width: 100%;
     height: auto;
 }
 .about-button{
