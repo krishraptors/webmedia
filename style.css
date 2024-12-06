@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 0 1rem;
+}
+
+header {
+    background-color:#ffffff;
+    color: #272727;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+.container h1{
+    margin-left: 0%;
+}
+.logo-container{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.logo {
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #272727;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #ff9c07;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.help-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #066082;
+    color: #ffffff;
+    padding: 2rem;
+}
+.help-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.help-content p {
+    font-size: 3rem;
+    font-weight:bold;
+    color: #ffffff;
+}
+
+.help-content button {
+    margin-top: 1rem;
+}
+
+.help-image {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: end;
+}
+
+.help-image img {
+    max-width: 100%;
+    height: auto;
+}
+.statistics-section {
+    text-align: center;
+    background-color: #dff3fb;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.statistics-section p {
+    margin-bottom: 1rem;
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.statistics-section img {
+    max-width: 100%;
+    height: auto;
+}
+.about-button{
+    text-align: center;
+}
+.getInvolvedBtn{
+    text-align: center;
+}
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .help-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .help-content, .help-image {
+        max-width: 100%;
+    }
+}

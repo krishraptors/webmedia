@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <main>
+      <form id="Login">
+      <header>
+        <h4>Login here using your username and password</h4>
+      </header>
+      <div class="login">
+        <input type="text" placeholder="Username" required />
+      </div>
+      <div class="login">
+        <input type="password" placeholder="Password" required />
+      </div>
+      <div class="login remember">
+        <input id="check-login" type="checkbox" />
+        <label for="check-login"
+          >Remember Me <a class="mp" href="#">Forgot Password</a></label
+        >
+      </div>
+      <button type="submit">Login</button>
+      <p class="footer">
+        Don't have an account? <a onclick="toggleLogin()" href="#">Sign Up</a>
+      </p>
+      </form>
+      <form id="Signup">
+        <header>
+          <h4>Signup here using your details</h4>
+        </header>
+        <div class="Signup">
+          <input type="text" placeholder="Username" required />
+        </div>
+        <div class="Signup">
+          <input type="email" placeholder="Email" required />
+        </div>
+        <div class="Signup">
+          <input
+            type="tel"
+            placeholder="Phone Number"
+            pattern="[0-9]{10}"
+            required
+          />
+        </div>
+        <div class="Signup">
+          <input type="password" placeholder="Password" required />
+        </div>
+        <div class="signup remember">
+          <input id="check-signup" type="checkbox" />
+          <label for="check-signup">I agree to terms & conditions</label>
+        </div>
+        <button type="submit">Sign Up</button>
+        <p class="footer">
+          Already have an account? <a onclick="toggleLogin()" href="#">Login</a>
+        </p>
+      </form>
+    </main>
+    <script src="login.js"></script>
+  </body>
+</html>
